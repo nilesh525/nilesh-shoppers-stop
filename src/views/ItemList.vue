@@ -5,7 +5,7 @@
                 <button type="button" class="btn btn-primary btn-lg btn-block btn-space" @click="gocart">Cart[{{totalcount}}]</button>
             </div>
             <div class="col" v-if="gb" >
-                <button type="button" class="btn btn-primary btn-lg btn-block btn-space" @click="gobk">Back</button>
+                <button type="button" class="btn btn-primary btn-lg btn-block btn-space" @click="gobk">Go Back</button>
             </div>
         </div>    
         <div class="row" v-if="toshowmainpage">
