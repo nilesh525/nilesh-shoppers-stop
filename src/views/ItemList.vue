@@ -2,7 +2,7 @@
     <div class="mainbody">
         <div class="row" >
             <div class="col" v-if="gc">
-                <button type="button" class="btn btn-primary btn-lg btn-block btn-space" @click="gocart">Cart[{{totalcount}}]</button>
+                <button type="button" class="btn btn-primary btn-lg btn-block btn-space" @click="gocart">Cart Count[{{totalcount}}]</button>
             </div>
             <div class="col" v-if="gb" >
                 <button type="button" class="btn btn-primary btn-lg btn-block btn-space" @click="gobk">Go Back</button>
