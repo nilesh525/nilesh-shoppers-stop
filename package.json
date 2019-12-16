@@ -2,6 +2,7 @@
   "name": "ecom",
   "version": "0.1.0",
   "private": true,
+  "auto_activate_base": false,
   "scripts": {
     "start": "npm run serve",
     "serve": "vue-cli-service serve",
@@ -10,7 +11,8 @@
     "heroku-postinstall": "npm install && npm run serve"
   },
   "devServer": {
-    "disableHostCheck": true
+    "disableHostCheck": true,
+    "auto_activate_base": false
   },
   "dependencies": {
     "@vue/cli-plugin-babel": "^4.0.0",
