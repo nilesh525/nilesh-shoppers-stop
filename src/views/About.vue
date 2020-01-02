@@ -1,14 +1,11 @@
 <template>
   <div class="about">
-    <h1>This is an about page {{count}}</h1>
-    <div v-for="x in cartvalue" :key="x.id">
-      {{x.id}}
-    </div>
-    <ItemList/>
+    <h1>This is an about page {{title}}</h1>
+    
   </div>
 </template>
 <script>
-import ItemList from "@/views/ItemList.vue";
+
 export default {
   name:"about-page",
   props:['count'],
@@ -18,8 +15,7 @@ export default {
     }
   },
   components:{
-    ItemList,
-    //'item': require('@/views/ItemList.vue'),
+    
   },
   methods:{
 

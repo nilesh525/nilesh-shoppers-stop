@@ -9,7 +9,10 @@
             <router-link to="/" class="nav-link">Home</router-link>
           </li>
           <li class="nav-item">
-            <router-link to="/about" class="nav-link" >Cart</router-link>
+            <router-link to="/about" class="nav-link" >Login</router-link>
+          </li>
+          <li class="nav-item">
+            <router-link to="/register" class="nav-link" >Register</router-link>
           </li>
         </ul>
         <form class="form-inline my-2 my-lg-0">
